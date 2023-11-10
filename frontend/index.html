@@ -1,0 +1,30 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staking DApp</title>
+    <!-- Include a CSS file if you want to add styles -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <h1>Staking DApp</h1>
+
+    <label for="stakeButton">Stake Amount:</label>
+    <input type="number" id="stakeButton" placeholder="Enter amount to stake">
+    <button id="stakeButton">Stake</button>
+
+    <label for="withdrawButton">Withdraw:</label>
+    <button id="withdrawButton">Withdraw</button>
+
+    <div id="balance"></div>
+
+    <!-- Include ethers.js library -->
+    <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
+
+    <!-- Include your JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
+
